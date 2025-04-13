@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+  box-sizing: border-box;
+}
+
+/*.principal{
+  position: absolute;
+  left: 30%;
+  top: 20px;
+}*/
+
+.main-container{
+  max-width: 800px;
+  display: grid;
+  place-items: center;
+}
+
+.principal{
+  max-width: 600px;
+  height: 100vh;
+}
+
+.header-container{
+  max-width: 700px;
+}
+
+.header{
+  display: flex;
+  gap: 20px;
+}
+
+.header > img{
+  background-color: white;
+  width: 70px;
+  height: 70px;
+}
+
+.header > h1{
+  font-family: "Londrina Shadow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  color: red;
+}
+
+.form-add-ingredient{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 35px;
+  max-width: fit-content;
+}
+
+.button-add-ingredient, .input-add-ingredient{
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.input-add-ingredient{
+  border: 1px solid #959695;
+}
+
+.button-add-ingredient{
+  background-color: #f75b4d;
+  color: #fff;
+}
+
+.getRecipe{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background-color: #ebe4e4;
+  border-radius: 8px;
+  padding: 20px;
+
+}
+
+.textContainer{
+  align-items: flex-start;
+  text-align: left;
+}
+
+.buttonRecipe{
+  align-items: flex-end;
+  background-color: #f75b4d;
+  color: #fff;
+}
+
+.ingredients-container{
+  max-width: fit-content;
+}
+
+.recipe-container{
+  max-width: 700px;
+}
+
+
