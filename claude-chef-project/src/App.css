@@ -67,6 +67,13 @@ body{
   color: #fff;
 }
 
+.minimunIngredients{
+  font-size: 12px;
+  color:#959695;
+  
+
+}
+
 .getRecipe{
   display: flex;
   align-items: center;

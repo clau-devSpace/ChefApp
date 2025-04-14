@@ -51,9 +51,10 @@ export default function SendIngredients() {
         <button type="submit" className="button-add-ingredient" >
           <span className="span">Add Ingredient</span>
         </button>
+
       </form>
      
-      
+       <h2 className="minimunIngredients">(Add at least 3 ingredients)</h2>
     </div>
 
     {ingredients.length > 0 && <Ingredientslist
